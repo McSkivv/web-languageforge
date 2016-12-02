@@ -14,7 +14,7 @@ use Symfony\Component\Security\Core\SecurityContextInterface;
 
 defined('ENVIRONMENT') or exit('No direct script access allowed');
 
-class Auth extends PublicApp
+class Auth extends App
 {
     // return status
     const LOGIN_FAIL = 'loginFail';
